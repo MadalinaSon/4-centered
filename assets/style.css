@@ -26,6 +26,7 @@ html, body {
     top:120px;
 }
 
+/* nu aveai nevoie de pozitionare aici, se putea face cu reguli de spatiere doar */
 .content-wrapper{
     position: absolute;
     top:120px;
@@ -43,6 +44,7 @@ h1{
 hr{
         float: left;
         margin-top: -20px;
+        /* se putea centra usor cu margin auto, te sfatuiesc sa eviti pozitionare/spatiere manuala, nu la toti userii se va vedea ca la tine, mare grija */
         margin-left: 220px;
         width: 45px;
         color:#fff;
@@ -55,6 +57,7 @@ span{
     border-width: fit-content;
 }
 .text{
+    /* te sfatuiesc sa optezi pentru o metoda dinamica de centrare, lasa browser-ul sa calculeze, altfel va fi diferit in functie de rezolutie si nu vrem asta */
     margin-left: 150px;
     width: 180px;
     text-align: justify;
